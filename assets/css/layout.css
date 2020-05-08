@@ -1,0 +1,101 @@
+
+
+/*---------------------------------------
+    Default CSS
+---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
+* {
+    margin:0;
+    padding:0
+}
+.a2z-wrapper a {
+    text-decoration:none
+}
+.a2z-wrapper a:hover,
+.a2z-wrapper a:focus {
+    text-decoration:none
+}
+.a2z-wrapper ul{
+    margin-bottom: 0;
+}
+.a2z-wrapper li {
+    list-style:none
+}
+.a2z-wrapper h1, 
+.a2z-wrapper h2, 
+.a2z-wrapper h3, .a2z-wrapper h4, .a2z-wrapper h5, .a2z-wrapper h6{
+    margin: 10px 0;
+}
+.a2z-wrapper p{
+	margin: 0;
+}
+.a2z-wrapper input{
+    height: 50px;
+}
+.a2z-wrapper input::placeholder{
+    text-transform: capitalize;
+}
+.a2z-wrapper select{
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+    height: 50px;
+}
+.a2z-wrapper{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #353940;
+	background: url(../img/bg.jpg) no-repeat top center;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+.a2z-wrapper .form-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+.a2z-wrapper .form-check-input {
+    margin-top: -0.7rem;
+}
+.a2z-area{
+    overflow: hidden;
+}
+.a2z-area{
+	padding: 60px 0;
+}
+
+.a2z-area{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.error {color: #FF0000;}
+/*---------------------------------------
+    Responsive css
+---------------------------------------*/
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler-icon i{
+        padding-top: 5px;
+        color: #fff;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .navbar-toggler-icon i{
+        padding-top: 5px;
+        color: #fff;
+    }
+    .a2z-menu .navbar-brand{
+        padding: 10px 15px;
+    }
+	.a2z-menu .nav-item .nav-link{
+        padding: 10px 20px;
+    }
+}
